@@ -1,0 +1,7 @@
+def bug_repr() -> None:
+    ints = [1, 2]
+    floats = [3.14, 2.72]
+    strings = ['a', 'b']
+    for numeric_list in [ints, floats]:
+        for number, string in zip(numeric_list, strings):
+            pass
